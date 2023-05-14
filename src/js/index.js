@@ -12,9 +12,9 @@ const contClasse = body.classList.contains('modo-escuro');
 body.classList.toggle("modo-escuro");
 
   if(contClasse){    
-    imagemBotao.setAttribute('src','./imagens/sun.png');
+    imagemBotao.setAttribute('src','./src/imagens/sun.png');
   } else {   
-    imagemBotao.setAttribute('src','./imagens/moon.png');
+    imagemBotao.setAttribute('src','./src/imagens/moon.png');
   }  
 });
 
